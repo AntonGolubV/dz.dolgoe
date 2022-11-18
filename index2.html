@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   /*  if( 3 >= 2){
+        console.log('true');
+        }
+        /* else if(2 === 2){
+            console.log(2);
+        }
+         */ 
+       /*  let value=3;
+        switch(value){
+        case 1:
+            console.log(1);
+            break;
+        case 2:
+            console.log(2);
+            break;
+        case 3:
+            console.log(3);
+            break;
+            default:
+            console.log('not true');
+            break;
+        } */
+        /* let value = 2;
+        value == 2 ? console.log('true') : console.log('not true');
+ */
+       /*  let value = +promt('Введите киллометры');
+        value
+         */
+      /*   let value = +prompt('Введите число');
+        if(value>=1){
+            console.log('введённое число положительное');
+        } else if(value<=-1){
+            console.log('введённое число отрицательное');
+        }
+        else if(value==0){
+            console.log('введено число ноль')
+        }
+
+        const mil = 0.621317;
+        const km =1;
+        let value1 = +prompt('введите число километров');
+        console.log(${value1}км = ${value1 * mil}мили);
+
+        let value3 = +prompt('Введите трёззначное число');
+        value3 = (((value3%100) - (value3%10))/10);
+        console.log(value3);
+
+        let i=0;
+        while(i < 10){
+            console.log(i);
+            i++;
+        }
+        do {
+            console.log(i);
+            i++;
+        }
+        while(i < 10);
+    
+         */
+       /* let first = +prompt('Введите первое число');
+        let second = +prompt('Введите второе число');
+        let plus = prompt('Введите знак');
+        switch(plus){
+            case '+':
+                console.log(first + second);
+                break;
+            case '-':
+                console.log(first - second);
+                break;
+            case '/': 
+                console.log(first / second);
+                break;
+            case '*':
+                console.log(first * second);
+                break;
+        }  */
+      /*   let value = +prompt('Введите число');
+        
+        for(let i = value; i > 0; i--){
+            console.log(i);
+
+        } */
+       /*  let value = 1000;
+        do{
+            i=value/2;
+            console.log(i);
+        }while(value>50);
+         */
+        /* let value = 1;
+        switch(typeof value){
+            case 'number':
+                console.log('true');
+                break;
+            case 2:
+                console.log('true');
+                break;
+            case 3:
+                console.log('true');
+                break;
+        }
+        console.log(typeof value); */
+     /*    let value = 12.2006497694569457687;
+            console.log(value.toFixed(3));
+        let value1 = '12.567jnkrjnhkrnhkrjhklrjnhklr';
+        console.log(parseInt(value1));
+        console.log(parseFloat(value1));
+        console.log(Math.round(Math.PI));
+        console.log(Math.floor(Math.PI));
+        console.log(Math.ceil(Math.PI));
+        console.log(Math.pow(2,3));
+        console.log(Math.floor(Math.random() * ((10) - (-10)) + (-10))); */
+       /*  let value = 'Петя,тормоз';
+        let value2 = value.slice(0, 2);
+        let value3 = value.slice(-2);
+        let value4 = value.split(',');
+        console.log(value.charAt(2));
+        console.log(value.concat(' 123','!'));
+        console.log(value.includes('т', 2));
+        console.log(value.indexOf('т'));
+        console.log(value.indexOf('@')); */
+
+        /* Задание 1.1 */
+       /*  let value = '52.2 триста десять тысяч';
+        console.log(parseInt(value));
+        
+         Задание 1.2 
+        let value1 = (parseFloat(value));
+        console.log(value1); */
+
+       /*  Задание 1.3 */
+      /*  let value3 = 52.4353536367475687568687;
+       console.log(value3.toFixed(4)); */
+
+       /* Задание 2 */
+      /*  let  val = +prompt('Введите значение радиуса окружности');
+       val1 = (val*val*Math.Pi);
+       console.log(Math.round(val));
+       console.log(Math.floor(val));
+       console.log(Math.ceil(val));
+       
+       /* Задание 3 */
+      /* for(let i = 0; i<5;i++){
+        console.log(parseInt(Math.random() * ((15) - (-48)) + (-48)));
+       }
+       for(let i = 0; i<5;i++){
+        console.log(parseInt(Math.random() * ((7) - (-30)) + (-30)));
+       }
+       for(let i = 0; i<5;i++){
+        console.log(parseInt(Math.random() * ((161) - (150)) + (150)));
+       } */
+       /* Задание 4 */
+       /* let val3 = +prompt('введите число');
+       let val4 = +prompt('Введите число');
+       for(let i = 0; i<5;i++){
+        console.log(parseInt(Math.random() * ((val3) - (val4)) + (val4)));
+       }
+
+       Задание 1
+        */
+       /* let str = prompt('Введите имя');
+       let str1 = prompt('Введите имя');
+       let str2 = prompt('Введите имя'); 
+       let str3 = str + str1 + str2;
+       console.log(str3.concat());
+       console.log(str3[7]);
+       console.log(str3.length); */
+       
+       
+       /* Задание 2 */
+        /* let value = prompt('Введите свой email');
+        let value1 = value.indexOf('@');
+        let value2 = value.slice(0,(parseInt(value1)));
+        
+        console.log(value2);  */
+       
+      /*  Задание 3 */
+       let val = prompt('Введите свой email');
+       if( (val.length>10) &&  val.includes('@')==true  &&   (val.includes('.',-3) == true || val.includes('.',-4) == true)) {
+        console.log(val);
+       }else{
+        console.log('Email введён не коректно, попробуйте заново');
+        } 
+        </script>
+        <body>
+        </head>
